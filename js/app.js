@@ -1,9 +1,9 @@
 $(document).ready(function() {
+  $('#search').focus();
   
   $('form').submit( function (evt){
     evt.preventDefault();
     var $searchField = $('#search');
-    $searchField.focus();
     
     var $submitButton = $('#submit');
     
