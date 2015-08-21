@@ -8,7 +8,7 @@ $(document).ready(function() {
     
     //disable search field
     $searchField.prop("disabled",true);
-    $submitButton.attr("disabled", true).val("searching...");
+    $submitButton.attr("disabled", true).val("hang on...");
 
     // the AJAX part
     var flickerAPI = "http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?";
