@@ -12,7 +12,7 @@ $(document).ready(function() {
     $submitButton.attr("disabled", true).val("searching...");
 
     // the AJAX part
-    var flickerAPI = "http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?";
+    var flickerAPI = "http://www.songsterr.com/a/ra/songs.xml?pattern=Marley";
     var animal = $searchField.val();
     var flickrOptions = {
       tags: animal,
